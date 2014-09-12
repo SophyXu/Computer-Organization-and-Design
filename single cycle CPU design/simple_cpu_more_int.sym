@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="simple_cpu_more_int">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-4-15T3:46:38</timestamp>
+    <attr value="simple_cpu_mux_more_int" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-416" name="clk" />
+    <pin polarity="Input" x="0" y="-352" name="reset" />
+    <pin polarity="Input" x="0" y="-224" name="inst_in(31:0)" />
+    <pin polarity="Output" x="384" y="-416" name="Addr_out(31:0)" />
+    <pin polarity="Output" x="384" y="-352" name="Cpudata_out(31:0)" />
+    <pin polarity="Input" x="0" y="-96" name="Cpudata_in(31:0)" />
+    <pin polarity="Input" x="0" y="-32" name="INT" />
+    <pin polarity="Output" x="384" y="-288" name="pc_out(31:0)" />
+    <pin polarity="Output" x="384" y="-160" name="mem_w" />
+    <graph>
+        <rect width="256" x="64" y="-448" height="448" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext attrname="PinName" x="72" y="-352" type="pin reset" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext attrname="PinName" x="72" y="-224" type="pin inst_in(31:0)" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="384" y1="-416" y2="-416" x1="320" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="312" y="-416" type="pin Addr_out(31:0)" />
+        <rect width="64" x="320" y="-428" height="24" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="312" y="-352" type="pin Cpudata_out(31:0)" />
+        <rect width="64" x="320" y="-364" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext attrname="PinName" x="72" y="-96" type="pin Cpudata_in(31:0)" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext attrname="PinName" x="72" y="-32" type="pin INT" />
+        <attrtext attrname="PinName" x="72" y="-416" type="pin clk" />
+        <attrtext style="alignment:BCENTER;fontsize:24;fontname:Arial" attrname="SymbolName" x="200" y="-244" type="symbol" />
+        <line x2="320" y1="-160" y2="-160" x1="384" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="300" y="-160" type="pin mem_w" />
+        <line x2="320" y1="-288" y2="-288" x1="384" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="304" y="-288" type="pin pc_out(31:0)" />
+    </graph>
+</symbol>
